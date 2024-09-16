@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aba com Três Partes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .tab {
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            flex: 1;
+            min-width: 200px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .tab h2 {
+            margin-top: 0;
+        }
+        .line {
+            height: 4px;
+            background-color: #3498db; /* Cor da linha */
+            margin-bottom: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="tab">
+            <div class="line"></div>
+            <h2>O que é CSS?</h2>
+            <p>O CSS é uma linguagem baseada em regras. — Você define regras especificando grupos de estilo que devem ser aplicados para elementos particulares ou grupos de elementos na sua página web.</p>
+        </div>
+        <div class="tab">
+            <div class="line"></div>
+            <h2>Para que serve CSS?</h2>
+            <p>O CSS separa o conteúdo da representação visual do site.</p>
+        </div>
+        <div class="tab">
+            <div class="line"></div>
+            <h2>O que é JavaScript?</h2>
+            <p>O JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática</p>
+        </div>
+    </div>
+
+</body>
+</html>
